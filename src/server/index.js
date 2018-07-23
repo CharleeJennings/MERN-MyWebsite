@@ -29,7 +29,7 @@ const markup = renderToString(
 			</head>
 
 			<body>
-				<div id = 'app'> ${markup}</div>
+				<div id = 'app'></div>
 
 			</body>
 		</html>`)
