@@ -1,0 +1,135 @@
+@import './Font.css';
+
+
+
+
+#aboutBg
+{
+    background: url(../images/SVG/About_background.svg);
+    background-size:  cover;
+    height: 500px;
+    position: absolute;
+    top: 850px ;
+    margin-bottom: -325;
+    min-width: 320px
+
+}
+
+#aboutBg p.raleway
+{
+    position: relative;
+    height: 200px;
+    text-align: center;
+    font-size: 13px;
+    top: 90px;
+
+}
+
+#aboutBg h1.yellowtail
+{
+
+    color: black;
+    font-size: 36px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: auto;
+    text-align: left;
+    transform: translate(-50%, -50%);
+
+
+}
+
+@media (min-width: 576px)
+{
+    #aboutBg h1.yellowtail
+    {
+        top: 60px;
+    }
+
+    #aboutBg p.raleway
+    {
+        top: 85px;
+        font-size: 2.5vw;
+    }
+
+}
+@media (min-width: 768px)
+{
+
+
+    #aboutBg h1.yellowtail
+    {
+        left: 8%;
+        font-size: 55px;
+    }
+
+    #aboutBg p.raleway
+    {
+        top: 100px;
+        font-size: 1.75vw;
+        margin-left: 250px;
+        margin-right: 70px;
+        text-align: left;
+    }
+
+
+    #AL
+    {
+        top: 1050px;
+        width: 250px;
+        height: 500px;
+        left: 150px;
+    }
+
+}
+
+@media (min-width: 992px)
+{
+
+
+#aboutBg p.raleway
+    {
+        margin-right: 80px;
+
+    }
+
+}
+
+@media (min-width: 1200px)
+{
+
+    #aboutBg
+    {
+        top: 860px;
+        height: 600px;
+    }
+
+    #aboutBg h1.yellowtail
+    {
+        font-size: 70px;
+    }
+    
+    #aboutBg p.raleway
+    {
+        top : 10vw;
+        font-size: 22px;
+        text-align: left;
+        left: 20px;
+        margin-left: 310px;
+    }
+
+
+
+
+    #AL
+    {
+        top: 1000px;
+        min-width: 450px;
+        min-height: 400px;
+        left : 250px;
+    }
+
+
+
+}

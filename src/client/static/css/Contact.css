@@ -1,0 +1,119 @@
+@import './Font.css';
+
+
+#Contact
+{
+        position: absolute;
+        top: 2000px;
+        background: url(../images/SVG/Footer_Background.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        min-width: 320px
+
+}
+
+
+#Contact h1
+{
+	color : #717685;
+	font-size : 32px;
+}
+
+#Contact a.raleway
+{
+	color : white;
+	font-size: 20px;
+}
+#Contact h3.raleway
+{
+	color : white;
+	font-size: 20px;
+}
+
+#Contact label.raleway
+{
+	color : #717685;
+	font-size: 20px;
+}
+
+#Contact input
+{
+	background: rgba(25,25,25,0.50);
+	border: 3px solid #FFFFFF;
+	border-radius: 5px ;
+}
+
+#ref
+{
+	position: relative;
+	top: 30px;
+}
+
+#comment
+{
+	height: 125px;
+	width : 100%;
+}
+
+#name
+{
+	position: relative;
+	top: 0px;
+}
+
+
+
+@media (min-width: 576px)
+{
+	#Contact
+	{
+		height: 325px;
+	}
+
+
+	#Contact a.raleway
+	{
+		font-size: 3vw;
+	}
+
+	#Contact h3.raleway
+	{
+		font-size : 3vw;
+	}
+
+}
+@media (min-width: 768px)
+{
+	#Contact
+	{
+		top : 1650px;
+	}
+
+}
+@media (min-width: 992px)
+{
+
+}
+@media (min-width: 1200px)
+{
+	
+	.jumbotron
+	{
+		height: 1100px;
+	}
+
+
+
+	#Contact
+	{
+		height: 275px;
+	}
+
+	  #name
+    {
+   		top: 130px;
+    }
+
+
+}

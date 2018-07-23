@@ -1,0 +1,50 @@
+@import './splashpage.css';
+
+
+#tag
+{
+    position: relative;
+    left: 40%;
+}
+#Hawaii
+{
+    background: url(../images/JPG/DSC_0805.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    
+}
+
+
+#nameTag
+{
+    top:300px;
+    position: relative;
+    max-width: 620px;
+    max-height: 142px;
+}
+
+
+
+@media (min-width: 576px)
+{
+
+}
+@media (min-width: 768px)
+{
+
+}
+@media (min-width: 992px)
+{
+    #Hawaii
+    {
+        background-attachment: fixed;
+    }
+
+}
+@media (min-width: 1200px)
+{
+
+
+}
+
