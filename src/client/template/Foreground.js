@@ -14,10 +14,11 @@ class Foreground extends React.Component
         
         render()
         {
+            const windowHeight = screen.height - 10;
             return(
             	<div>
 
-                     <div className='container-fluid' id="aboutBg">
+                     <div style= {{top: windowHeight + 'px'}}className='container-fluid' id="aboutBg">
                         <About/>
                      </div>
 

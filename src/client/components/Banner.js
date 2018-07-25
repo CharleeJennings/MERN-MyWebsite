@@ -22,8 +22,9 @@ export default class Banner extends React.Component
 
 	render()
 	{
+		const windowHeight = screen.height + 200
 		return (
-			<Container id="Hawaii" fluid = {true}>
+			<Container id="Hawaii" fluid = {true} style= {{height: windowHeight + 'px'}}>
 				<Container fluid = {true} id = "nameTag">
 					<object type ="image/svg+xml" data={nameTag}/>
 					<Container fluid ={true}>

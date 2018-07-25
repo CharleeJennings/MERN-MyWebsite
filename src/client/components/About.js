@@ -3,12 +3,19 @@ import * as React from 'react';
 
 export default class About extends React.Component
 {
+
+
+
+	
+
 	render()
 	{
+
+
 		return (
 
-			<div>
 
+			<div>
 			<h1 className = 'yellowtail'><u>About</u></h1>
 
 			<p class = "raleway">

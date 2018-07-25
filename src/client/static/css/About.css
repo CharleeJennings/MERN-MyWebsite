@@ -101,7 +101,6 @@
 
     #aboutBg
     {
-        top: 860px;
         height: 600px;
     }
 
@@ -124,10 +123,10 @@
 
     #AL
     {
-        top: 1000px;
+        top: 1200px;
         min-width: 450px;
         min-height: 400px;
-        left : 250px;
+        left : 230px;
     }
 
 

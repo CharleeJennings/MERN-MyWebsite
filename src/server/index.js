@@ -24,6 +24,7 @@ const markup = renderToString(
 		<!DOCTYPE html>
 		<html>
 			<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title> User Mern-Stack </title>
 			<script src = '/bundle.js' defer> </script>
 			</head>
