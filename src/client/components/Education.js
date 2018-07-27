@@ -11,6 +11,7 @@ export default class Education extends React.Component {
 	render() {
 		return (
 			<div>
+			
 			<h1 className =" yellowtail container-fluid"><u>Education </u></h1>
 			 <Row className = "justify-content-center" id = "schools">
 			 <Col lg="auto" sm ="auto" md = "auto" xs = "auto"><img id ='schoolImg' src = {Lawson}/> <h5 class = 'raleway'> Lawson State</h5> </Col>
@@ -21,4 +22,3 @@ export default class Education extends React.Component {
 		);
 	}
 }
-

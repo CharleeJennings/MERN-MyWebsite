@@ -4,7 +4,7 @@
 #Contact
 {
         position: relative;
-        top: 200px;
+        top: 150px;
         background: url(../images/SVG/Footer_Background.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -87,17 +87,28 @@
 {
 	#Contact
 	{
-		top : 150px;
+		top : 100px;
 	}
 
 }
 @media (min-width: 992px)
 {
 
+  #Contact a.raleway
+	{
+		font-size: 2vw;
+	}
+
+	#Contact h3.raleway
+	{
+		font-size : 2vw;
+	}
+
+
 }
 @media (min-width: 1200px)
 {
-	
+
 	.jumbotron
 	{
 		height: 1100px;
