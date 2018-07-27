@@ -6,6 +6,10 @@
     font-family: 'Raleway';
 }
 
+.navbar
+{
+    background-color: '#000000'
+}
 
 body
 {
@@ -26,7 +30,7 @@ body
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1200px;
+    top: 1100px;
     left: 50%;
     transform: translate(-50%);
 
@@ -56,7 +60,7 @@ body
 
     #AL
     {
-        top: 1050px;
+        top: 1000px;
         width: 250px;
         height: 500px;
         left: 150px;

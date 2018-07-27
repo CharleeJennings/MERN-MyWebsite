@@ -8,7 +8,6 @@ import Contact from '../components/Contact';
 import '../static/css/Contact.css';
 
 
-
 class Foreground extends React.Component
     {
         
@@ -17,21 +16,19 @@ class Foreground extends React.Component
             const windowHeight = screen.height - 10;
             return(
             	<div>
-
+                   
                      <div style= {{top: windowHeight + 'px'}}className='container-fluid' id="aboutBg">
                         <About/>
                      </div>
-
+                        
                      <div className= 'container-fluid' id='educationBg'>
                         <Education/>
                      </div>       
-
                      <div id ='AL' />
 
                      <div className= "container-fluid" id ='Contact'>
                         <Contact/>
                      </div>
-                    
                 </div>
             
             

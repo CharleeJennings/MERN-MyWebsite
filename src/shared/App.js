@@ -14,6 +14,7 @@ export default class App extends React.Component
               		<Component {...props} {...rest} />
             			)} />
           ))}
+		          <Route render = {() => <h1> Route not Found </h1>}/>
 		</Switch>
 		 </div> ); 
 	}

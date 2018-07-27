@@ -1,12 +1,13 @@
 import * as React from 'react';
 import anime from 'animejs';
-import '../../style/css/splashpage.css';
+import '../static/css/splashpage.css';
 
 class Splashscreen extends React.Component {
 
 constructor(props)
 {
 	super(props)
+
 }
 
 
@@ -29,8 +30,8 @@ basicTimeline.add
 .add({
 
  	targets: '#lineDrawing svg',
- 	top: -65,
- 	left: -30 ,
+ 	top: -68,
+ 	left: -25 ,
  	scale: .25,
  	delay : 0,
  	duration : 2000,

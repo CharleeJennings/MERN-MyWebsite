@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../components/Banner.js';
 
 
-
 class Background extends React.Component
 {
 
@@ -13,8 +12,9 @@ class Background extends React.Component
 
 
 		return (
-			
+				<div>
 				<Banner/>
+				</div>
 			);
 	}
 

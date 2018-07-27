@@ -1,7 +1,7 @@
 import * as React from 'react';
-import '../../style/css/Font.css';
+import '../static/css/Font.css';
  import Splashpage from './Splashpage';
-import "../../style/css/splashpage.css";
+import "../static/css/splashpage.css";
 import {
   Collapse,
   Navbar,
@@ -37,7 +37,7 @@ export default class NavigationBar extends React.Component
   render() {
     return (
 
-        <Navbar  color="faded" light expand="md">
+        <Navbar fixed= 'top' dark  expand="md">
           <NavbarBrand href="/"><Splashpage/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>

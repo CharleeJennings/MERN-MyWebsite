@@ -5,6 +5,7 @@
 {
     position: relative;
     left: 40%;
+    top: 90px;
 }
 #Hawaii
 {
@@ -22,6 +23,7 @@
     position: relative;
     max-width: 620px;
     max-height: 142px;
+    opacity: 0;
 }
 
 

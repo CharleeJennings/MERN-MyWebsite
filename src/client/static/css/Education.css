@@ -6,17 +6,17 @@
    background: url(../images/SVG/Education_background.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    height: 850px;
-    top: 1190px ;
+    position: relative;
+    height: 500px;
     min-width: 320px;
+    top: 180px;
 
 }
 
 #schools
 {
     position: relative;
-    top: 450px;
+    top: 250px;
 
 }
 
@@ -25,9 +25,8 @@
     color : white;
     width: auto;
     font-size: 36px;
-    top : 370px;
-    position: absolute;
-    left : 50%;
+    top : 50px;
+    position: relative;
     transform: translate(-50%, -50%);
 }
 
@@ -76,10 +75,15 @@
 }
 @media (min-width: 768px)
 {
+        #educationBg h1.yellowtail
+    {
+        top: 90px;
+        font-size: 70px;
+        float: right;
+    }
 
 	#educationBg
 	{
-		top: 1200px;
 		height: 450px;
 	}
 
@@ -104,13 +108,17 @@
 	#educationBg
 	{
 		height: 600px;
-		top: 1520px;
+		top: 180px;
+        right: 0px;
+
 	}
 
 	#educationBg h1.yellowtail
 	{
 		top: 90px;
 		font-size: 70px;
+        float: right;
+    
 	}
 
 	#schools

@@ -25,7 +25,7 @@ const markup = renderToString(
 		<html>
 			<head>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<title> User Mern-Stack </title>
+			<title> Charles Lee Jennings </title>
 			<script src = '/bundle.js' defer> </script>
 			</head>
 
