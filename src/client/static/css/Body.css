@@ -30,7 +30,7 @@ body
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1100px;
+    top: 1400px;
     left: 50%;
     transform: translate(-50%);
 
@@ -60,7 +60,7 @@ body
 
     #AL
     {
-        top: 1000px;
+        top: 1200px;
         width: 250px;
         height: 500px;
         left: 150px;
@@ -78,7 +78,7 @@ body
 {
     #AL
     {
-        top: 1000px;
+        top: 1200px;
         min-width: 450px;
         min-height: 400px;
         left : 250px;

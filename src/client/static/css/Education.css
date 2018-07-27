@@ -16,7 +16,7 @@
 #schools
 {
     position: relative;
-    top: 250px;
+    top: 150px;
 
 }
 
@@ -71,7 +71,10 @@
 
 @media (min-width: 576px)
 {
-
+    #educationBg
+    {
+        height: 550px;
+    }
 }
 @media (min-width: 768px)
 {
@@ -89,7 +92,7 @@
 
 	#schools
 	{
-		top: 230px;
+		top: 150px;
 		padding-left: 0px;
 	
 	}
