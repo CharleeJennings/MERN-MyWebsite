@@ -1,0 +1,52 @@
+
+$background: url(../images/JPG/DSC_0805.jpg);
+
+#tag
+{
+    position: relative;
+    left: 40%;
+    top: 200px;
+}
+
+#Hawaii
+{
+    background: $background;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+#nameTag
+{
+    top:300px;
+    position: relative;
+    max-width: 620px;
+    max-height: 142px;
+    opacity: 0;
+}
+
+
+
+@media (min-width: 576px)
+{
+
+}
+@media (min-width: 768px)
+{
+
+}
+@media (min-width: 992px)
+{
+    #Hawaii
+    {
+        background-attachment: fixed;
+    }
+
+}
+@media (min-width: 1200px)
+{
+
+
+}

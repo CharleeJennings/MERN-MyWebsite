@@ -4,7 +4,7 @@ var nodeExternals = require ('webpack-node-externals')
 
 
 
-var browserConfig = 
+var browserConfig =
 {
 	entry: './src/client/index.js',
 	output: {
@@ -33,13 +33,14 @@ var browserConfig =
                     loader: "file-loader?name=fonts/[name]-[hash].[ext]"
       },
 			{
-        		test: /\.css$/,
-        		use: [ 'style-loader', 'css-loader' ]
-      }
+        		test: /\.(s*)css$/,
+        		use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+      },
+
 
 		]
 	},
-	plugins: 
+	plugins:
 	[
 		new webpack.DefinePlugin({
      	 __isBrowser__: "true"
@@ -60,7 +61,9 @@ var serverConfig = {
     rules: [
       { test: /\.(js)$/, use: 'babel-loader' },
       {test:  /\.(gif|png|jpe?g|svg)$/i, use: 'ignore-loader'},
-      {test: /\.css$/, use: 'ignore-loader' }
+      {test: /\.css$/, use: 'ignore-loader' },
+			{test: /\.scss/, use: 'ignore-loader'}
+
     ]
   },
   plugins: [

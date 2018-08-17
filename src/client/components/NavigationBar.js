@@ -38,12 +38,12 @@ export default class NavigationBar extends React.Component
     return (
 
         <Navbar fixed= 'top' dark  expand="md">
-          <NavbarBrand href="/"><Splashpage/></NavbarBrand>
+          <NavbarBrand href="/"></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="www.google.com" id = "navbarLinks">Resume</NavLink>
+                <NavLink href="/Resume" id = "navbarLinks">Resume</NavLink>
               </NavItem>
               <NavItem>
               <NavLink href= '#Contact' id = "navbarLinks"> Contact </NavLink>
@@ -51,13 +51,8 @@ export default class NavigationBar extends React.Component
             </Nav>
           </Collapse>
         </Navbar>
-  
+
 
     );
   }
 }
-
-
-
-
-

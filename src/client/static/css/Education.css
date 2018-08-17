@@ -7,27 +7,28 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 600px;
+    height: 650px;
     min-width: 320px;
-    top: 180px;
+    top: 175px;
 
 }
 
 #schools
 {
     position: relative;
-    top: 250px;
-
+    top: 390px;
 }
 
 #educationBg h1.yellowtail
 {
-    color : white;
+    color: white;
     width: auto;
     font-size: 36px;
-    top : 50px;
-    position: relative;
+    top: 300px;
+    position: absolute;
+    left: 50%;
     transform: translate(-50%, -50%);
+
 }
 
 #schoolImg
@@ -71,41 +72,49 @@
 
 @media (min-width: 576px)
 {
-    #educationBg
-    {
-        height: 600px;
-    }
+
 }
 @media (min-width: 768px)
 {
-        #educationBg h1.yellowtail
+    #educationBg h1.yellowtail
     {
-        top: 90px;
-        font-size: 70px;
-        float: right;
+      top: 75px;
+      font-size: 55px;
+      left: 75%;
     }
 
 	#educationBg
 	{
 		height: 500px;
+    top: 170px;
 	}
 
-	#schools
-	{
-		top: 170px;
-    left: 20%
-
-	}
+  #schools
+  {
+    top : 200px;
+  }
 
 
 }
 @media (min-width: 992px)
 {
 
-#schools
- {
-   top: 200px;
-   left : 250px;
+  #educationBg h1.yellowtail
+  {
+    left: 85%;
+    top: 60px;
+    font-size: 55px;
+  }
+
+  #educationBg
+  {
+    height: 500px;
+  }
+
+
+  #schools
+  {
+    top: 180px;
   }
 
 }
@@ -114,29 +123,22 @@
 
 	#educationBg
 	{
-		height: 600px;
+		height: 500px;
 		top: 180px;
-    right: 0px;
 
 	}
 
 	#educationBg h1.yellowtail
 	{
-		top: 90px;
 		font-size: 70px;
-        float: right;
 
 	}
 
 	#schools
 	{
 		top: 200px;
-		float:right;
-    left : 0px
-
+		float: right;
+    left: -30px;
 	}
-
-
-
 
 }

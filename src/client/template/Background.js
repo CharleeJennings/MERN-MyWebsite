@@ -10,7 +10,6 @@ class Background extends React.Component
 
 	{
 
-
 		return (
 				<div>
 				<Banner/>
