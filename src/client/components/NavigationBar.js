@@ -29,6 +29,21 @@ export default class NavigationBar extends React.Component
       isOpen: false
     };
   }
+
+  handleScroll()
+  {
+    
+  }
+  componentDidMount()
+  {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+  componentWillUnmount()
+  {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
