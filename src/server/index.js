@@ -17,6 +17,7 @@ const activeRoute = routes.find((route) => matchPath(req.url, route)) || {}
 
 const markup = renderToString(
 	<StaticRouter location= {req.url} context= {{}}>
+
 	</StaticRouter>
 	)
 

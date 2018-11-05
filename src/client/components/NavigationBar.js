@@ -32,7 +32,7 @@ export default class NavigationBar extends React.Component
 
   handleScroll()
   {
-    
+
   }
   componentDidMount()
   {
@@ -61,7 +61,7 @@ export default class NavigationBar extends React.Component
                 <NavLink href="/Resume" id = "navbarLinks">Resume</NavLink>
               </NavItem>
               <NavItem>
-              <NavLink href= '#Contact' id = "navbarLinks"> Contact </NavLink>
+                <NavLink href= '#Contact' id = "navbarLinks"> Contact </NavLink>
               </NavItem>
             </Nav>
           </Collapse>

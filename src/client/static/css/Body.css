@@ -30,7 +30,7 @@ body
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1150px;
+    top: 1175px;
     left: 45%;
 
 
@@ -62,7 +62,7 @@ body
 
         width: 250px;
         height: 350px;
-        left: 50px;
+        left: 20px;
     }
 
 }
