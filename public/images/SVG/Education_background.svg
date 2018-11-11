@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="464px" viewBox="0 0 1440 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Education_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#254268" offset="0%"></stop>
+            <stop stop-color="#1B3050" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Launchpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Website" transform="translate(0.000000, -949.000000)" fill="url(#linearGradient-1)">
+            <g id="Background" transform="translate(0.000000, -66.000000)">
+                <polygon id="Education_background" points="0 1072.52939 1440 1015 1440 1479 0 1479"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

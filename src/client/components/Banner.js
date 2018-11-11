@@ -1,7 +1,5 @@
 import React from 'react';
-import nameTag from '../static/images/SVG/Software_Tag.svg';
 import '../static/css/Banner.scss';
-import scrollTag from '../static/images/SVG/Scroll Tag.svg';
 import anime from 'animejs';
 import
 {
@@ -45,9 +43,9 @@ export default class Banner extends React.Component
 
       <Container id="Hawaii" fluid = {true} style= {{height: windowHeight + 'px'}}>
 				<Container fluid = {true} id = "nameTag" >
-					<object type ="image/svg+xml" data={nameTag}/>
+					<object type ="image/svg+xml" data={'./images/SVG/Software_Tag.svg'}/>
 					<Container fluid ={true}>
-					<img id ="tag" src = {scrollTag}/>
+					<img id ="tag" src = {'./images/SVG/Scroll Tag.svg'}/>
 					</Container>
 				</Container>
 			</Container>

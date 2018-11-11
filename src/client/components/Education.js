@@ -5,9 +5,9 @@ import
   Col
 }
 from 'reactstrap';
-import Lawson from "../static/images/PNG/Lawson emblem.png";
-import Aum from "../static/images/PNG/AUM emblem.png";
-import AuburnM from "../static/images/PNG/Auburn mascot.png";
+
+
+
 
 export default class Education extends React.Component
 {
@@ -20,14 +20,14 @@ export default class Education extends React.Component
         </u>
       </h1>
       <Row className="justify-content-center" id="schools">
-        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImg' src={Lawson}/>
+        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImg' src={"./images/PNG/Lawson emblem.png"}/>
           <h5 class='raleway'>
             Lawson State</h5>
         </Col>
-        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImg' src={AuburnM}/>
+        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImg' src={"./images/PNG/Auburn mascot.png"}/>
           <h5 class='raleway'>Auburn University</h5>
         </Col>
-        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImgAum' src={Aum}/>
+        <Col lg="auto" sm="auto" md="auto" xs="auto"><img id='schoolImgAum' src={"./images/PNG/AUM emblem.png"}/>
           <h5 class='raleway'>Auburn in Montgomery
           </h5>
         </Col>

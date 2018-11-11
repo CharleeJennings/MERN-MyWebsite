@@ -1,7 +1,7 @@
 var path = require ( 'path')
 var webpack = require ('webpack')
 var nodeExternals = require ('webpack-node-externals')
-
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 
 var browserConfig =
@@ -34,7 +34,7 @@ var browserConfig =
       },
 			{
         		test: /\.(s*)css$/,
-        		use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+        		use: [ 'ignore-loader']
       },
 
 
@@ -60,16 +60,42 @@ var serverConfig = {
   module: {
     rules: [
       { test: /\.(js)$/, use: 'babel-loader' },
-      {test:  /\.(gif|png|jpe?g|svg)$/i, use: 'ignore-loader'},
-      {test: /\.css$/, use: 'ignore-loader' },
-			{test: /\.scss/, use: 'ignore-loader'}
+      {test:  /\.(gif|png|jpe?g|svg)$/i,  use: [
+						'url-loader',
+					{
+							loader: 'image-webpack-loader',
+							options: {
+								bypassOnDebug: true, // webpack@1.x
+									disable: true, // webpack@2.x and newer
+							},
+					},
+				 ],},
+  {  test: /\.(s*)css$/,
+          use: [
+            {
+              loader: MiniCssExtractPlugin.loader,
+              options: {
+                // you can specify a publicPath here
+                // by default it use publicPath in webpackOptions.output
+                publicPath: './public'
+              }
+            },
+            "css-loader", "sass-loader"
+          ]
+				},
 
     ]
   },
   plugins: [
     new webpack.DefinePlugin({
       __isBrowser__: "false"
-    })
+    }),
+		new MiniCssExtractPlugin({
+		 // Options similar to the same options in webpackOptions.output
+		 // both options are optional
+		 filename: "./public/[name].css",
+		 chunkFilename: "[id].css"
+	 })
   ]
 }
 

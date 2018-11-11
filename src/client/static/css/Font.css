@@ -1,29 +1,13 @@
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('./fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('./fonts/raleway-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'yellowtailregular';
-    src: url('./fonts/yellowtail-regular-webfont.woff2') format('woff2'),
-         url('./fonts/yellowtail-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway|Yellowtail');
+@import "~bootstrap/dist/css/bootstrap.css";
 
 .raleway
 {
-    font-family: "ralewayregular";
+    font-family: "Raleway";
 }
 .yellowtail
 {
-   font-family: "yellowtailregular"; 
+   font-family: "Yellowtail";
 }
 
 

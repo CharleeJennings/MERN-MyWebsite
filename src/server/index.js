@@ -4,6 +4,7 @@ import {matchPath , StaticRouter } from 'react-router-dom';
 import routes from '../shared/routes'
 import App from '../shared/App';
 import React from 'react'
+import 'babel-polyfill';
 
 
 
@@ -26,7 +27,9 @@ const markup = renderToString(
 		<html>
 			<head>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
+
 			<title> Charles Lee Jennings </title>
+			<link rel="stylesheet" type="text/css" href="/main.css" />
 			<script src = '/bundle.js' defer> </script>
 			</head>
 
