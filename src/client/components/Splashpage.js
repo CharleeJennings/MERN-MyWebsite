@@ -30,8 +30,8 @@ basicTimeline.add
 .add({
 
  	targets: '#lineDrawing svg',
- 	top: -68,
- 	left: -25 ,
+ 	top: 0,
+ 	left: 0 ,
  	scale: .25,
  	delay : 0,
  	duration : 2000,

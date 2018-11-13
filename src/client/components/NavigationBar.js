@@ -53,7 +53,7 @@ export default class NavigationBar extends React.Component
     return (
 
         <Navbar fixed= 'top' dark  expand="md">
-          <NavbarBrand href="/"></NavbarBrand>
+          <NavbarBrand href="/"><Splashpage/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
