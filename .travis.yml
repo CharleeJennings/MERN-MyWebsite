@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - stable
+- stable
 cache:
   directories:
   - node_modules
@@ -8,3 +8,13 @@ before_install:
 - npm i nodemon webpack webpack-cli webpack-node-externals babel-loader image-webpack-loader
   file-loader css-loader ignore-loader style-loader babel-core babel-plugin-transform-object-rest-spread
   babel-preset-env babel-preset-react-app
+script:
+- npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure:
+      fe4a5c5f-4440-4138-bfef-fe1c3a364d05
+    app: charleejennings
+    on:
+      repo: CharleeJennings/MERN-MyWebsite
