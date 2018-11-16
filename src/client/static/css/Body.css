@@ -30,8 +30,8 @@ body
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1175px;
-    left: 45%;
+    top: 1375px;
+    left: 37%;
 
 
 }
@@ -63,14 +63,17 @@ body
         width: 250px;
         height: 350px;
         left: 20px;
+        top: 1275px;
     }
 
 }
 
 @media(min-width: 992px)
 {
-
-
+  #AL
+  {
+            top: 1200px;
+  }
 }
 
 @media (min-width : 1200px)

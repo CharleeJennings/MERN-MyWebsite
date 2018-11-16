@@ -13,8 +13,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure:
-      fe4a5c5f-4440-4138-bfef-fe1c3a364d05
+    secure: oalUvT1qB4iFLENrOjXWBvGgTvWM6xoCUUoZu6K4N2hffZyA/Fom793MyjKrd3VR53Tfr86M/2wyuErTbV+YdXWQOe2anFnqsFR2CwrLI8A/jahz9lxRgCTwxUwjMYmJB3ctj0caV5lm+4cCFOAtgb19/Pvyse+obTyQ7IK/W/Gfym70CnLuvhikDRr6UO/8usKbSe22QK5LNssiXj6LjEZ8hKa3yT5WnhCJWQQQ74NB14ZqJFnKv1hLA+qZ8WZi3Dsvw09RMlPzQ0ccanVbeCRi4QUO5c/ZFlxxDeiPJndeIMQkAc2LiFhL0i5ICwawRHB2VGix0vCh2lJisSqTwyT91egY7m2E1+RdYUUXGJkzei6cB70PvnpBxylsstFZ07+uQQUotUmCdptrHq3m11WIAH3dMgfzbj11tSNBRXancfzwFTEoUEn5j2SJ9jjugLUi+13k2R6rUU52P1PpzbAFufuUvvKckmPD63/Jjh3AXFtBJrEQ9KEPcvMt1C2M+AhVsvCM92uzpjpyS+e+XaXN8Ziaxp5+kt2GxdUnfGhjlBTV1PMo8fDXIXFfKQ5sDvQu8SCSx3Fnm3OoQxgT+8H4nbDipClfCKSLbgLYF/1CnO3w7Nkr/TR6jCkcqCzg7ABWVtpTXqdn1PWM3Q0+mNupgwb9zIJ+Tp1f234lxNY=
   app: charleejennings
   on:
     repo: CharleeJennings/MERN-MyWebsite
