@@ -5,6 +5,9 @@ import {
 } from 'reactstrap';
 
 
+const Social() =>
+(return(<Col> <Col/>))
+
 
 export default class Contact extends React.Component {
   constructor( props )
