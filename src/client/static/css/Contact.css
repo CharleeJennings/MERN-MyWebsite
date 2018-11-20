@@ -1,5 +1,13 @@
 @import './Font.css';
 
+#Social
+{
+  position: relative;
+  background-color: black;
+  top: 100px;
+  height: 40px;
+}
+
 
 #Contact
 {

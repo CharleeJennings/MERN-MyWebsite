@@ -6,6 +6,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 var browserConfig =
 {
+	mode: process.env.NODE_ENV || 'development',
 	entry: './src/client/index.js',
 	output: {
 		path: path.resolve(__dirname, 'public'),
@@ -49,6 +50,7 @@ var browserConfig =
 }
 
 var serverConfig = {
+	mode: process.env.NODE_ENV || 'development',
   entry: './src/server/index.js',
   target: 'node',
   externals: [nodeExternals()],

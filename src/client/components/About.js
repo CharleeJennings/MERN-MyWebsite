@@ -13,7 +13,7 @@ export default class About extends React.Component
 
       <p class="raleway">
         My name is Charles Lee Jennings.<br/>
-        I was born and raised in Birmingham, Alabama. I attended Shades Valley High School and graduated in 2013 with an Engineering Technical Diploma. After graduation, I attended summer classes at Lawson State Community College then transferrd to Auburn University in Montgomery. I stayed at AUM for one year then transferrd to Auburn. I graduated with a degree Software Engineering in the Fall of 2017. This is content that im going to fill to test out if I can add more stuff to the about page
+        I was born and raised in Birmingham, Alabama. I attended Shades Valley High School and graduated in 2013 with an Engineering Technical Diploma. After graduation, I attended summer classes at Lawson State Community College then transferrd to Auburn University in Montgomery. I stayed at AUM for one year then transferrd to Auburn. I graduated with a degree Software Engineering in the Fall of 2017. Now I develop website for clients and work for Apple as a Technial Advisor. Feel free to contact me if you have any questions or would like to have a website deployed.
       </p>
     </div>);
   }

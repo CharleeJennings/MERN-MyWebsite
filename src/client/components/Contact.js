@@ -5,9 +5,30 @@ import {
 } from 'reactstrap';
 
 
-const Social() =>
-(return(<Col> <Col/>))
+const Questions = () => (<Col lg = '6' xs='12' sm='6'>
+  <h1>Questions?</h1>
+  <form onSubmit = {this.handleSubmit}>
+    <Row>
+      <Col lg = 'auto' sm='12' md='12'>
+      <div id = 'name'>
+      <label className='raleway'>Name: </label>
+      <input placeholder= "Your Name" type ="text" name = "name" value = {this.state.name} onChange = {this.handleChange.bind(this)}/>
+      </div>
+      </Col>
 
+      <Col lg='auto' sm='12' md='12'>
+      <label className = 'raleway'>Comment: </label>
+      <input placeholder = "Awesome Website!" id = "comment" name = "comment" type = "text" value = {this.state.comment} onChange={this.handleChange.bind(this)}/>
+      </Col>
+
+      <Col>
+        <input type = 'submit'/>
+      </Col>
+    </Row>
+  </form>
+</Col>);
+
+const Social = () => (<Row id ="Social"> <Col>Twitter</Col> <Col>Instagram</Col> <Col>LinkedIn</Col>  <Col>Snapchat</Col> </Row>);
 
 export default class Contact extends React.Component {
   constructor( props )
@@ -43,31 +64,11 @@ export default class Contact extends React.Component {
 
 
   render() {
-    return ( <Row>
+    return (
+<div>
+      <Row>
 
 
-						<Col lg = '6' xs='12' sm='6'>
-							<h1>Questions?</h1>
-							<form onSubmit = {this.handleSubmit}>
-								<Row>
-									<Col lg = 'auto' sm='12' md='12'>
-									<div id = 'name'>
-									<label className='raleway'>Name: </label>
-									<input placeholder= "Your Name" type ="text" name = "name" value = {this.state.name} onChange = {this.handleChange.bind(this)}/>
-									</div>
-									</Col>
-
-									<Col lg='auto' sm='12' md='12'>
-									<label className = 'raleway'>Comment: </label>
-									<input placeholder = "Awesome Website!" id = "comment" name = "comment" type = "text" value = {this.state.comment} onChange={this.handleChange.bind(this)}/>
-									</Col>
-
-                  <Col>
-                    <input type = 'submit'/>
-                  </Col>
-								</Row>
-							</form>
-						</Col>
 
 
 
@@ -79,6 +80,9 @@ export default class Contact extends React.Component {
 							</div>
 
 						</Col>
-					</Row> );
+					</Row>
+    
+          </div>
+         );
   }
 }
