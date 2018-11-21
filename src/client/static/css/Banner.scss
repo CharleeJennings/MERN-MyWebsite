@@ -13,6 +13,8 @@ $background: url(../images/JPG/DSC_0805.jpg);
     background: $background;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+
 
 
 }
@@ -42,7 +44,6 @@ $background: url(../images/JPG/DSC_0805.jpg);
 {
     #Hawaii
     {
-        background-attachment: fixed;
     }
 
 }
