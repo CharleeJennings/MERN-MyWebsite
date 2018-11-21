@@ -10,7 +10,7 @@
     height: 500px;
     position: absolute;
     margin-bottom: -325;
-    min-width: 320px
+    min-width: 320px;
 
 }
 
@@ -53,6 +53,13 @@
     }
 
 }
+
+
+
+/* Responsive Layout*/
+
+
+
 @media (min-width: 768px)
 {
 
@@ -65,12 +72,17 @@
 
     #aboutBg p.raleway
     {
-        top: 100px;
+        top: 120px;
         font-size: 1.85vw;
         margin-left: 250px;
         margin-right: 70px;
         text-align: left;
+        left: 50px;
     }
+
+
+
+
 
 
 
@@ -83,6 +95,7 @@
 #aboutBg p.raleway
     {
         margin-right: 80px;
+        left: 35px;
 
     }
 
@@ -103,7 +116,7 @@
 
     #aboutBg p.raleway
     {
-        top : 10vw;
+        top : 9vw;
         font-size: 22px;
         text-align: left;
         left: 20px;

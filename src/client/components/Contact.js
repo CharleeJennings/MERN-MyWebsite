@@ -28,7 +28,7 @@ const Questions = () => (<Col lg = '6' xs='12' sm='6'>
   </form>
 </Col>);
 
-const Social = () => (<Row id ="Social"> <Col>Twitter</Col> <Col>Instagram</Col> <Col>LinkedIn</Col>  <Col>Snapchat</Col> </Row>);
+const Social = () => (<div className = "container-fluid"> <Row id ="Social"> <Col>Twitter</Col> <Col>Instagram</Col> <Col>LinkedIn</Col>  <Col>Snapchat</Col> </Row> </div>);
 
 export default class Contact extends React.Component {
   constructor( props )
@@ -64,13 +64,10 @@ export default class Contact extends React.Component {
 
 
   render() {
-    return (
-<div>
-      <Row>
+    return ( <div id ="Footer">
 
-
-
-
+            <div className= "container-fluid" id ='Contact'>
+            <Row>
 
 						<Col lg = '6' xs='12' sm='6'>
 							<h1>Contact:</h1>
@@ -78,10 +75,11 @@ export default class Contact extends React.Component {
 							           <a href= "mailto:CharlesJenn39@gmail.com" className = "raleway">Email: CharlesJenn39@gmail.com </a>
 							           <h3 className = "raleway"> Phone: (205)-914-5430 </h3>
 							</div>
-
 						</Col>
-					</Row>
-    
+
+					  </Row>
+          </div>
+          <Social/>
           </div>
          );
   }

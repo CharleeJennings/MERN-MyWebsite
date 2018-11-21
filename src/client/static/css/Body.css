@@ -30,6 +30,10 @@ body
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
+    top: 1150px;
+    left: 50%;
+    margin-left: -76.5px;
+
 
 
 
@@ -48,6 +52,9 @@ body
 
 
 
+/* Responsive Layout*/
+
+
 @media(min-width: 576px)
 {
 
@@ -59,11 +66,13 @@ body
 
     #AL
     {
+      margin-left: 0px;
+      left : 10px;
+      width: 250px;
+      height: 400px;
+      top: 950px;
 
-        width: 250px;
-        height: 350px;
-        left: 20px;
-        top: 1275px;
+
     }
 
 }
@@ -72,18 +81,18 @@ body
 {
   #AL
   {
-            top: 1200px;
+    left: 50px;
+      top: 1000px;
   }
+
 }
 
 @media (min-width : 1200px)
 {
-    #AL
-    {
-
-        width: 300px;
-        height: 450px;
-        left : 50px;
-    }
+  #AL
+  {
+    width: 300px;
+    height: 450px;
+  }
 
 }

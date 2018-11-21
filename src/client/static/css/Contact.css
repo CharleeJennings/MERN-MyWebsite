@@ -4,20 +4,17 @@
 {
   position: relative;
   background-color: black;
-  top: 100px;
-  height: 40px;
 }
 
 
 #Contact
 {
         position: relative;
-        top: 150px;
         background: url(../images/SVG/Footer_Background.svg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 500px;
-        min-width: 320px
+        min-width: 320px;
+        margin: 0px;
 
 }
 
@@ -30,11 +27,15 @@
 
 #Contact a.raleway
 {
+  top: -30px;
+  position: relative;
 	color : white;
 	font-size: 20px;
 }
 #Contact h3.raleway
 {
+  top: -30px;
+  position: relative;
 	color : white;
 	font-size: 20px;
 }
@@ -77,12 +78,14 @@
 }
 
 
+/* Responsive Layout*/
+
 
 @media (min-width: 576px)
 {
 	#Contact
 	{
-		height: 325px;
+		height: 200px;
 	}
 
 
@@ -99,10 +102,7 @@
 }
 @media (min-width: 768px)
 {
-	#Contact
-	{
-		top : 100px;
-	}
+
 
 }
 @media (min-width: 992px)
@@ -123,12 +123,12 @@
 @media (min-width: 1200px)
 {
 
-	.jumbotron
-	{
-		height: 1100px;
-	}
 
-
+  #Footer
+  {
+    position: relative;
+    top: 100px;
+  }
 
 	#Contact
 	{
