@@ -10,11 +10,12 @@ class Foreground extends React.Component
 {
   render()
   {
+    const windowHeight = window.height + 200
     return (
               <div>
                   <About/>
                   <Education/>
-                  <div id ='AL' />
+                  <div id ='AL'  />
                   <Contact/>
               </div>
           );

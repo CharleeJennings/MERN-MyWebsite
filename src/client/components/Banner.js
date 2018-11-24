@@ -3,10 +3,11 @@ import '../static/css/Banner.scss';
 import anime from 'animejs';
 import
 {
-  Container
+  Container, Row, Col
 }
 from 'reactstrap'
 
+import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 
 export default class Banner extends React.Component
@@ -39,19 +40,23 @@ export default class Banner extends React.Component
   render()
   {
     const windowHeight = screen.height + 200
+    const windowWidth = screen.width
     return (
 
-      <Container id="Hawaii" fluid = {true} style= {{height: windowHeight + 'px'}}>
-				<Container fluid = {true} id = "nameTag" >
-					<object type ="image/svg+xml" data={'./images/SVG/Software_Tag.svg'}/>
-					<Container fluid ={true}>
-					<img id ="tag" src = {'./images/SVG/Scroll Tag.svg'}/>
-					</Container>
-				</Container>
-			</Container>
+<ParallaxProvider>
+<Parallax
+        offsetYMax={20}
+        offsetYMin={-20}
+        slowerScrollRate
+        tag="figure">
+
+        <img className= "Hawaii" src="./images/JPG/DSC_0805.jpg" style = {{height: windowHeight + 'px' }}>
+        </img>
 
 
-
+    </Parallax>
+    
+</ParallaxProvider>
 
 
     );

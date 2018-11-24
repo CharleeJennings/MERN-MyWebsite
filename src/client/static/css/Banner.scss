@@ -3,30 +3,33 @@ $background: url(../images/JPG/DSC_0805.jpg);
 
 #tag
 {
-    position: relative;
+    position: absolute;
     left: 40%;
     top: 200px;
 }
 
-#Hawaii
+.Hawaii
 {
-    background: $background;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  
+width: 100%;
 
 
 
 }
 
+#name{
+  width: 300px;
+
+}
 
 #nameTag
 {
     top:300px;
-    position: relative;
+    position: absolute;
     max-width: 620px;
     max-height: 142px;
     opacity: 0;
+    left:50%;
 }
 
 /* Responsive Layout*/
@@ -42,9 +45,7 @@ $background: url(../images/JPG/DSC_0805.jpg);
 }
 @media (min-width: 992px)
 {
-    #Hawaii
-    {
-    }
+
 
 }
 @media (min-width: 1200px)
