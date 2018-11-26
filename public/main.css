@@ -9350,6 +9350,5 @@ body {
   top: 0; }
 
 #lineDrawing svg {
-  position: absolute;
-  transform: translate(-50%, -50%); }
+  position: absolute; }
 
