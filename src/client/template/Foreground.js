@@ -8,14 +8,41 @@ import Contact from '../components/Contact';
 
 class Foreground extends React.Component
 {
+  constructor(props)
+  {
+    super(props)
+    this.state = {height : screen.height,
+    }
+    this.updateHeight = this.updateHeight.bind(this)
+  }
+
+  updateHeight()
+  {
+    if (screen.width < 768)
+    {
+      this.setState({height : screen.height + 375})
+    }
+    else {
+      this.setState({height : screen.height + 200})
+    }
+
+  }
+
+  componentDidMount()
+  {
+    this.updateHeight()
+    window.addEventListener('resize', this.updateHeight)
+  }
+
   render()
   {
-    const windowHeight = window.height + 200
+
+
     return (
               <div>
                   <About/>
                   <Education/>
-                  <div id ='AL'  />
+                  <div id ='AL' style={{top: this.state.height + 'px'}} />
                   <Contact/>
               </div>
           );

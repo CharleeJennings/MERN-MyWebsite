@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway|Yellowtail);
 @import url(https://fonts.googleapis.com/css?family=Raleway|Yellowtail);
 #tag {
+  max-width: 200px;
   position: absolute;
   left: 40%;
   top: 200px; }
@@ -9,15 +10,15 @@
   width: 100%; }
 
 #name {
-  width: 300px; }
+  width: 500px; }
 
 #nameTag {
-  top: 300px;
   position: absolute;
   max-width: 620px;
   max-height: 142px;
   opacity: 0;
-  left: 50%; }
+  right: 50%;
+  transform: translate(50%, -50%); }
 
 /* Responsive Layout*/
 
@@ -9077,7 +9078,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
-  top: 1150px;
   left: 50%;
   margin-left: -76.5px; }
 
@@ -9087,16 +9087,15 @@ body {
 /* Responsive Layout*/
 @media (min-width: 768px) {
   #AL {
+    top: default;
     margin-left: 0px;
-    left: 10px;
+    left: 20px;
     width: 250px;
-    height: 400px;
-    top: 950px; } }
+    height: 400px; } }
 
 @media (min-width: 992px) {
   #AL {
-    left: 50px;
-    top: 1000px; } }
+    left: 40px; } }
 
 @media (min-width: 1200px) {
   #AL {
@@ -9108,7 +9107,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 700px;
+  height: 900px;
   min-width: 320px;
   top: 100px; }
 
@@ -9157,6 +9156,10 @@ body {
   text-align: middle; }
 
 /* Responsive Layout*/
+@media (min-width: 576px) {
+  #educationBg {
+    height: 700px; } }
+
 @media (min-width: 768px) {
   #educationBg h1.yellowtail {
     top: 75px;
@@ -9173,7 +9176,7 @@ body {
 
 @media (min-width: 992px) {
   #educationBg h1.yellowtail {
-    left: 85%;
+    left: 87%;
     top: 60px;
     font-size: 55px; }
   #educationBg {

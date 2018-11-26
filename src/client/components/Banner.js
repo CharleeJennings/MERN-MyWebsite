@@ -12,6 +12,18 @@ import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
 export default class Banner extends React.Component
 {
+  constructor(props)
+  {
+    super(props)
+    this.state = {height : screen.height}
+    this.updateHeight = this.updateHeight.bind(this)
+  }
+  updateHeight()
+  {
+    this.setState({height: screen.height})
+  }
+
+
 
 
   componentDidMount()
@@ -35,11 +47,15 @@ export default class Banner extends React.Component
       duration: 500,
     });
 
+    window.addEventListener("resize", this.updateHeight)
+
+
   }
 
   render()
   {
-    const windowHeight = screen.height + 200
+    const windowHeight = this.state.height + 200
+    const nameTagHeight = this.state.height / 2.5
     const windowWidth = screen.width
     return (
 
@@ -49,14 +65,24 @@ export default class Banner extends React.Component
         offsetYMin={-20}
         slowerScrollRate
         tag="figure">
-
         <img className= "Hawaii" src="./images/JPG/DSC_0805.jpg" style = {{height: windowHeight + 'px' }}>
         </img>
-
-
     </Parallax>
-    
+          <Container fluid ={true} id ='nameTag' style = {{top: nameTagHeight + 'px' }}>
+
+          <Container fluid = {true}>
+          <object type ="image/svg+xml" data={'./images/SVG/Software_Tag.svg'}/>
+          </Container>
+
+          <Container fluid ={true}>
+          <object type='image/svg+xml' id ="tag" data = {'./images/SVG/Scroll Tag.svg'}/>
+          </Container>
+
+          </Container>
+
 </ParallaxProvider>
+
+
 
 
     );

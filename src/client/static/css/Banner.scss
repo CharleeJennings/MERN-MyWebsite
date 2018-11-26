@@ -3,6 +3,7 @@ $background: url(../images/JPG/DSC_0805.jpg);
 
 #tag
 {
+    max-width: 200px;
     position: absolute;
     left: 40%;
     top: 200px;
@@ -10,7 +11,7 @@ $background: url(../images/JPG/DSC_0805.jpg);
 
 .Hawaii
 {
-  
+
 width: 100%;
 
 
@@ -18,18 +19,20 @@ width: 100%;
 }
 
 #name{
-  width: 300px;
+  width: 500px;
 
 }
 
 #nameTag
 {
-    top:300px;
+  
     position: absolute;
     max-width: 620px;
     max-height: 142px;
     opacity: 0;
-    left:50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
 }
 
 /* Responsive Layout*/
